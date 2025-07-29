@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+}
+
+.banner-text h2 {
+  max-width: 400px;
+}
+
+.banner button {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.banner-img img {
+  max-height: 300px;
+}
+
+.name-tag {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: red;
+  padding: 5px;
+  color: white;
+}
+
+.services {
+  padding: 40px 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.service-images img {
+  width: 200px;
+  margin: 10px;
+}
+
+.contact {
+  padding: 40px 20px;
+  background-color: #00aabb;
+  color: white;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.contact-content img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+form input,
+form textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+form button {
+  padding: 10px;
+  background-color: white;
+  color: #00aabb;
+  border: none;
+  cursor: pointer;
+}
